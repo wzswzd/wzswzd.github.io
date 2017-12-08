@@ -40,8 +40,8 @@ _<font color='lightgray'>2017-12-08</font>_
 
 - [x] get start of `Jekyll Blog` on `Github Pages`.
 - [ ] learn more about `_layout` folders.
-- - [ ] change the Picutre of Banner.
-- - [ ] change & complete the Site Information.
+- [ ] change the Picutre of Banner.
+- [ ] change & complete the Site Information.
 - [ ] get start of `HTML Programming`.
 - [ ] learn more about How to write a `Nice Doc` by Markdown on blog.
 - [ ] get start of `Docker`.
