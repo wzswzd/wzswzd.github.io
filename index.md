@@ -40,6 +40,14 @@ _<font color='lightgray'>2017-12-08</font>_
 
 [http://blog.sina.com.cn/s/blog_986b7acc0101073b.html]
 
+## Cef Bitbucket
+
+Cef : [https://bitbucket.org/chromiumembedded/cef]
+
+Cef Quick-Start : [https://github.com/cefsharp/CefSharp/wiki/Quick-Start]
+
+Cef Quick-Start WPF : [https://www.codeproject.com/Articles/881315/Display-HTML-in-WPF-and-CefSharp-Tutorial-Part]
+
 ## TodoList
 
 - [x] get start of `Jekyll Blog` on `Github Pages`.
