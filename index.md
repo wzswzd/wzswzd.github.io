@@ -50,6 +50,14 @@ Cef Quick-Start : [https://github.com/cefsharp/CefSharp/wiki/Quick-Start]
 
 Cef Quick-Start WPF : [https://www.codeproject.com/Articles/881315/Display-HTML-in-WPF-and-CefSharp-Tutorial-Part]
 
+## Electron
+
+### 环境配置
+
+- Windows : 《Electron 开发》 环境配置和Helloworld : [http://blog.csdn.net/linshuhe1/article/details/71107882]
+- MacOS : null
+- Linux : null
+
 ## TodoList
 
 - [x] get start of `Jekyll Blog` on `Github Pages`.
