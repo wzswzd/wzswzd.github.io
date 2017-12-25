@@ -36,6 +36,10 @@ _<font color='lightgray'>2017-12-08</font>_
 
 对于我个人来说，设置 `Fcitx` 配置中的 `云拼音，为拼音输入法加入云拼音支持` 中的 `云拼音源（Cloud Pinyin Source）` 为 `Baidu` 就可以满足了。
 
+## Windows Reg/注册表 编辑
+
+[http://blog.sina.com.cn/s/blog_986b7acc0101073b.html]
+
 ## TodoList
 
 - [x] get start of `Jekyll Blog` on `Github Pages`.
