@@ -1,3 +1,18 @@
+
+// 001
+/*
+$(function(){
+	$(".nav a").each(
+
+    	function() {
+			$(this).attr("target", "_blank");
+    });
+});
+*/
+
+
+// 002
+
 $(function() {
     $('.nav a').each(
 
@@ -26,3 +41,4 @@ $(function() {
         });
     });
 });
+

@@ -33,7 +33,11 @@ body {
 .nav h3 i {
 	font-style: normal;
 	padding-left: 10px;
-	color: red;
+	color: white;
+}
+
+.nav a {
+	target: "_blank"
 }
 
 .clear {
