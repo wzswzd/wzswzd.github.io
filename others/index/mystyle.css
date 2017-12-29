@@ -8,36 +8,19 @@ html, body {
 body {
 	line-height: 1.0;
 	font-family: 微软雅黑;
-	background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#fff));
+	font-weight: bold;
+	background-color: white;	
 }
-
-.nav {
-	border: solid 1px #B8D4B8;
-	margin-bottom: 20px;
-	border-radius: 10px;
-	background-color: #fff;
-}
-
-.nav:hover {
-	box-shadow: 0 5px 30px #999;
-}
-
-.nav h3 {
-	margin: 0;
-	background-color: #836FFF;
-	padding: 5px 10px;
-	font-weight: normal;
-	font-size: 16px;
-}
-
-.nav h3 i {
-	font-style: normal;
-	padding-left: 10px;
-	color: white;
-}
-
-.nav a {
-	target: "_blank"
+/* 在 Body 顶部添加一个阴影 */
+body:before {
+   content:"";
+   position:fixed;
+   top: -100px;
+   left: 0;
+   width: 100%;
+   height: 100px;
+   z-index: 999;
+   box-shadow: 0 0 100px rgba(31,110,212,0.5);
 }
 
 .clear {
@@ -45,21 +28,84 @@ body {
 	height: 15px;
 }
 
-.nav a {
+.footer {
+	height: 100px; 
+}
+
+.menu {
+	background-color: #D0DFE6;
+	height: 100px; 
+	margin-bottom: 20px;
+}
+
+.menu p {
+	margin: 0 2.5%;
+	width: auto;
+	color: #032030;
+	display: inline-block;
+	vertical-align:middle;
+	text-align:center;
+	font-size: 200%;
+}
+
+.menu span {
+	display: inline-block;
+	height:100%;
+	vertical-align: middle;
+}
+
+.group {
+	margin-bottom: 20px;
+	border-radius: 10px;
+	background-color: rgb(250,250,250);
+	box-shadow: 0 5px 30px rgba(0,0,0,0.1);
+}
+
+.group:hover {
+	box-shadow: 0 5px 30px #999;
+}
+
+.group h3 {
+	margin: 0;
+	border-radius: 10px 10px 0px 0px;
+	background-color: #D0DFE6;
+	padding: 5px 10px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #032030;
+}
+
+.group h3 i {
+	font-style: normal;
+	font-weight: normal;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #F71E35;
+}
+
+.group h3 span{
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: black;
+}
+
+.group a {
 	float: left;
 	width: 150px;
 	margin-top: 15px;
 	margin-left: 10px;
 	text-align: center;
 	text-decoration: none;
+	color: #1794A5;
 }
 
-.nav a:hover {
+.group a:hover {
 	text-decoration: none;
-	color: red;
+	color: #F71E35;
 }
 
-.nav a i {
+.group a i {
 	font-style: normal;
 	color: #999;
 	font-size: 9px;

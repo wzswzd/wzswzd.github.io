@@ -2,7 +2,7 @@
 // 001
 /*
 $(function(){
-	$(".nav a").each(
+	$(".group a").each(
 
     	function() {
 			$(this).attr("target", "_blank");
@@ -14,7 +14,7 @@ $(function(){
 // 002
 
 $(function() {
-    $('.nav a').each(
+    $('.group a').each(
 
     	function() {
         var href = $(this).attr('href');
@@ -31,14 +31,21 @@ $(function() {
             console.log(count);
         });
         $(this).hover(
-
+	
         	function() {
-            $(this).parents('.nav').find('h3 i').html($(this).attr('href'));
-        },
-        
-        function() {
-            $(this).parents('.nav').find('h3 i').html('');
-        });
+				var attrHref = $(this).attr('href');
+				$(this).parents('.group').find('h3 i').html(attrHref);				
+				var attrTitle = $(this).attr('title');
+				if (attrTitle) {
+					$(this).parents('.group').find('h3 span').html("tips: " + attrTitle);
+				}
+			},
+			
+			function() {
+				$(this).parents('.group').find('h3 i').html('');
+				$(this).parents('.group').find('h3 span').html("");				
+			}
+		);
     });
 });
 
