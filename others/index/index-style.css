@@ -48,6 +48,11 @@ body:before {
 	font-size: 200%;
 }
 
+.menu a {
+	text-decoration: none;
+	color: #000;
+}
+
 .menu span {
 	display: inline-block;
 	height:100%;
@@ -92,27 +97,6 @@ body:before {
 	font-size: 16px;
 	color: #032030;
 }
-
-
-
-/*
-h3 {
-	counter-increment: myCounter;
-	margin-left: 5px;
-	line-height: 24px;
-}
-
-h3:before {
-	content: counter(myCounter,decimal-leading-zero);
-	padding: 1px 5px;
-	margin-right: 10px;
-	background: #F63;
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	color: #FFF
-}
-*/
 
 .group h3 i {
 	font-style: normal;
