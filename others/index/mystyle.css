@@ -59,6 +59,24 @@ body:before {
 	border-radius: 10px;
 	background-color: rgb(250,250,250);
 	box-shadow: 0 5px 30px rgba(0,0,0,0.1);
+
+	
+}
+
+.group {
+	counter-increment: counterId_Group;
+}
+
+.group h3:before {
+	content: counter(counterId_Group,decimal-leading-zero);
+	padding: 0px 5px;
+	margin-right: 10px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	background: rgba(31,110,212,0.15);
+	/* background: #F63;  */
+	color: #FFF
 }
 
 .group:hover {
@@ -74,6 +92,27 @@ body:before {
 	font-size: 16px;
 	color: #032030;
 }
+
+
+
+/*
+h3 {
+	counter-increment: myCounter;
+	margin-left: 5px;
+	line-height: 24px;
+}
+
+h3:before {
+	content: counter(myCounter,decimal-leading-zero);
+	padding: 1px 5px;
+	margin-right: 10px;
+	background: #F63;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	color: #FFF
+}
+*/
 
 .group h3 i {
 	font-style: normal;
