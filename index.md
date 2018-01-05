@@ -22,7 +22,7 @@ _<font color='lightgray'>2017-12-08</font>_
 
 第一次，所以没有排版和整理，先从记录开始。
 
-## uBuntu环境
+## uBuntu环境 放到一个单独的md里
 ---
 _<font color='lightgray'>2017-12-08</font>_
 
